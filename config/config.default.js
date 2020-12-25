@@ -15,7 +15,7 @@ exports.cos = {
   // client: {
   //   SecretId: 'COS_SECRETID',
   //   SecretKey: 'COS_SECRETKEY',
-  //   Bucket: 'BucketName-APPID',
+  //   Bucket: 'BUCKET-APPID',
   //   Region: 'COS_REGION', // e.g ap-shanghai
   // },
 };

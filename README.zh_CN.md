@@ -1,6 +1,6 @@
 # egg-cos
 
-[腾讯云COS] Egg.js插件。
+[腾讯云COS] [SDK] Egg.js插件。
 
 ## 安装
 
@@ -25,7 +25,7 @@ exports.cos = {
 exports.cos = {
   SecretId: 'COS_SECRETID',
   SecretKey: 'COS_SECRETKEY',
-  Bucket: 'BucketName-APPID',
+  Bucket: 'BUCKET-APPID',
   Region: 'COS_REGION', // e.g ap-shanghai
 };
 ```
@@ -60,3 +60,4 @@ module.exports = CosController;
 [MIT](LICENSE)
 
 [腾讯云COS]: https://cloud.tencent.com/document/product/436/8629
+[SDK]: https://github.com/tencentyun/cos-nodejs-sdk-v5

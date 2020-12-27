@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-cos",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Tencent Cloud COS plugin for Egg.js.",
   "eggPlugin": {
     "name": "cos"

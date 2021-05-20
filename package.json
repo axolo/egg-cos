@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-cos",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Tencent Cloud COS plugin for Egg.js.",
   "eggPlugin": {
     "name": "cos"
@@ -14,20 +14,20 @@
     "COS"
   ],
   "dependencies": {
-    "cos-nodejs-sdk-v5": "^2.9.12"
+    "cos-nodejs-sdk-v5": "^2.9.15"
   },
   "devDependencies": {
     "autod": "^3.1.1",
     "autod-egg": "^1.1.0",
-    "egg": "^2.29.3",
-    "egg-bin": "^4.15.0",
+    "egg": "^2.29.4",
+    "egg-bin": "^4.16.2",
     "egg-ci": "^1.18.0",
-    "egg-mock": "^4.0.1",
-    "eslint": "^7.22.0",
+    "egg-mock": "^4.1.0",
+    "eslint": "^7.26.0",
     "eslint-config-egg": "^9.0.0"
   },
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14.0.0"
   },
   "scripts": {
     "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
